@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="icon" href="./img/icon.jpg">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- --AOS-- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ---HOME--- -->
+
+  <div class="background ">
+
+    <video autoplay loop muted class="background-clip" plays-inline>
+      <source src="./3130284-uhd_2560_1440_30fps.mp4" type="video/mp4">
+    </video>
+
+    <div id="home" class="main  ">
+      <div class="nav pt-2">
+        <div class="mine">
+          <h3 class="pt-2 fw-bold" data-aos="fade-up" style="font-family: poppins; font-style: italic; ">Portfolio</h3>
+        </div>
+        <div class="nav1">
+          <ul class="mt-2 pt-1 " type="none">
+            <li><a class="menu me-3" href="#home">Home</a></li>
+            <li><a class="menu me-3" href="#about">About</a></li>
+            <li><a class="menu me-3" href="#skill">Skills</a></li>
+            <li><a class="menu me-3" href="#project">Projects</a></li>
+            <li><a class="menu" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="tog">
+          <div class="tog-line"></div>
+          <div class="tog-line"></div>
+          <div class="tog-line"></div>
+        </div>
+
+      </div>
+      <div class="head text-center align-content-center ">
+        <h3 class="text-white " data-aos="fade-up">Hi I'm<span></span></h3>
+        <h1 class="name display-1 fw-bold text-white" data-aos="fade-up">SANJAI</h1>
+        <div class="iam">
+          <h3 class="text-white " data-aos="fade-up">I'm a<span></span></h3>
+          <div class="icons d-flex justify-content-center mt-4">
+            <div class="icon rounded-circle align-content-center text-center me-1" data-aos="flip-left"
+              style="height: 45px; width: 45px;">
+              <a href="https://www.linkedin.com/in/sanjai-s-50a605313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in fs-4 mt-1"></i></a>
+            </div>
+            <div class="icon rounded-circle align-content-center text-center ms-1" data-aos="flip-right"
+              style="height: 45px; width: 45px;">
+              <a href="https://github.com/Sanjai-Don" target="_blank"><i class="fa-brands fa-github fs-4 mt-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+
+  //backgroundColor Change
+var body1=document.querySelector("body")
+var port=document.querySelector(".mine h3")
+port.addEventListener("click",function(){
+  body1.classList.toggle("body-style")
+})
+
+  //NavBar
+  var tog=document.querySelector(".tog")
+  var listt=document.querySelector(".nav1 ul")
+  tog.addEventListener("click",function(){
+   listt.classList.toggle('show-menu')
+    
+  })
+</script>
+  <!-- ---ABOUT--- -->
+
+
+  <div id="about" class="about container pb-5">
+    <div class="h1 text-center mt-5">ABOUT</div>
+    <div class="underline1"></div>
+    <div class="mt-5 mb-5 d-md-flex">
+      <div class="para1 col-md-6 text-center">
+        <h1 class="" data-aos="fade-up">It's Me <span style="color: #fb8122;">!</span> </h1>
+        <img src="./ssss.png" class="toji mt-4" data-aos="zoom-in" height="300" width="300" alt="">
+      </div>
+      <div class="para col-md-6" data-aos="fade-up">
+        <h3 class="mb-3">Hi, I'm Sanjai <span style="color: #fb8122;">. . .</span></h3>
+
+        <p class="pt-3">I'm a web developer with a focus on the FULL stack, but still exploring other technologies and
+          frameworks that catch my interest!, I am eager to embark on a professional journey in the tech industry. I
+          have developed a solid foundation in HTML, CSS, and JavaScript through academic projects and personal
+          endeavors, and I am skilled in using modern frameworks such as React Js and Node Js.I am excited to contribute to
+          dynamic projects and grow my skills further in a collaborative and innovative environment,if you're looking
+          for a developer to add to your team, I'd love to hear from you!
+
+        </p>
+        <div class="text-center">
+          <a href="#contact" class="emoji-button px-5 py-2 fw-bold">Hire Me!</a>
+
+          <div class="emoji-animations">
+
+            <span class="emoji">😊</span>
+            <span class="emoji">🎸</span>
+            <span class="emoji">🚀</span>
+            <span class="emoji">💚</span>
+          </div>
+          <a href="./PortfolioSanjaiResume.pdf" download class="emoji-button px-4 py-2 fw-bold">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!---Still There--->
+
+
+  <div class="still">
+    <div class="still1 align-content-center">
+      <div class="h1 display-1  text-end fw-bold" data-aos="fade-down">Still there?</div>
+      <h3 class="h3  text-end mt-4" data-aos="fade-up">I know you are more excited to see <span>My
+          work...</span></h3>
+    </div>
+  </div>
+
+
+  <!---skills--->
+
+
+  <div id="skill" class="skill container-fluid pb-5 my-md-5">
+    <div class="h1 text-center mt-5">SKILLS</div>
+    <div class="underline1 mb-5"></div>
+    <div class="container box pb-5 pt-4">
+      <div class="container aaa d-md-flex  ">
+        <div class="col-md-5  mt-5" data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>HTML</h4>
+            <h4>95%</h4>
+          </div>
+          <div class="aaa">
+            <div class="progress" data-aos="zoom-in">
+              <div class="progress-bar" style="width: 95%;background-color:#fb8122;">95%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-5 mt-5 " data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>CSS</h4>
+            <h4>80%</h4>
+          </div>
+          <div class="">
+            <div class="progress " data-aos="zoom-in">
+              <div class="progress-bar " style="width: 80%;background-color:#fb8122;">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex  ">
+        <div class="col-md-5 mt-5" data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>BOOTSTRAP</h4>
+            <h4>88%</h4>
+          </div>
+          <div class="aaa">
+            <div class="progress" data-aos="zoom-in">
+              <div class="progress-bar" style="width: 88%;background-color:#fb8122;">88%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-5 mt-5" data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>JAVASCRIPT</h4>
+            <h4>76%</h4>
+          </div>
+          <div class="">
+            <div class="progress " data-aos="zoom-in">
+              <div class="progress-bar " style="width: 76%;background-color:#fb8122;">76%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex  ">
+        <div class="col-md-5 mt-5" data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>React Js</h4>
+            <h4>90%</h4>
+          </div>
+          <div class="aaa">
+            <div class="progress" data-aos="zoom-in">
+              <div class="progress-bar" style="width: 70%;background-color:#fb8122;">70%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-5 mt-5" data-aos="fade-up">
+          <div class=" d-flex  justify-content-between ">
+            <h4>PHP</h4>
+            <h4>77%</h4>
+          </div>
+          <div class="pb-5">
+            <div class="progress">
+              <div class="progress-bar " style="width: 77%;background-color:#fb8122;">77%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!---Projects--->
+
+  <div id="project" class="project container pb-5">
+    <div class="h1 text-center mt-5 ">PROJECTS</div>
+    <div class="underline1 mb-5"></div>
+    <div id="carouselExampleAutoplaying" data-aos="fade-up" class="carousel slide  d-none d-sm-block"
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="cards-wraper ">
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./portfolio.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title ">Responsive Portfolio</h5>
+                <p class="card-text">A portfolio project description is a concise and informative summary of a project,
+                  highlighting its objectives, scope, and outcomes.</p>
+                <a href="#" class="btn ">Live Preview</a>
+              </div>
+            </div>
+
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./netflix1.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Netflix Clone</h5>
+                <p class="card-text">Netflix clone project is a web application that mimics the functionality and user
+                  interface of Netflix, a popular online streaming service. </p>
+                <a href="#" class="btn ">Live Preview</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="cards-wraper ">
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./ecommerce1.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-center">Amazon Clone</h5>
+                <p class="card-text">An Amazon clone is a complex undertaking that involves replicating many of the
+                  features found in a leading e-commerce platform.</p>
+                <a href="#" class="btn ">Live Preview</a>
+              </div>
+            </div>
+
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./instagram clone.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Instagram Clone</h5>
+                <p class="card-text">Developing a web application that enables users to interact with each other online
+                  and share information in online communities.</p>
+                <a href="#" class="btn">Live Preview</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="cards-wraper ">
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./whatsapp-clone.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-center">Chat App</h5>
+                <p class="card-text">A chat application is a real-time communication system that enables users to
+                  transmit text-based messages over a network.</p>
+                <a href="#" class="btn ">Live Preview</a>
+              </div>
+            </div>
+
+            <div class="card m-3">
+              <div class="image-wrapper">
+                <img src="./twitter clone.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title">Twitter Clone</h5>
+                <p class="card-text">Building a social media platform where users can post updates, follow others, and
+                  engage with content inspired by Twitter</p>
+                <a href="#" class="btn ">Live Preview</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplaying1" data-aos="fade-up" class="carousel slide d-sm-none me-3"
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./portfolio.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title ">Responsive Portfolio</h5>
+              <p class="card-text">A portfolio project description is a concise and informative summary of a project,
+                highlighting its objectives, scope, and outcomes.</p>
+              <a href="#" class="btn ">Live Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./netflix1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Netflix Clone</h5>
+              <p class="card-text">Netflix clone project is a web application that mimics the functionality and user
+                interface of Netflix, a popular online streaming service. </p>
+              <a href="#" class="btn ">Live Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./ecommerce1.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Amazon Clone</h5>
+              <p class="card-text">An Amazon clone is a complex undertaking that involves replicating many of the
+                features found in a leading e-commerce platform.</p>
+              <a href="#" class="btn ">Live Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./instagram clone.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Instagram Clone</h5>
+              <p class="card-text">Developing a web application that enables users to interact with each other online
+                and share information in online communities.</p>
+              <a href="#" class="btn">Live Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./whatsapp-clone.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Chat App</h5>
+              <p class="card-text">A chat application is a real-time communication system that enables users to transmit
+                text-based messages over a network.</p>
+              <a href="#" class="btn ">Live Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card m-3">
+            <div class="image-wrapper">
+              <img src="./twitter clone.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Twitter Clone</h5>
+              <p class="card-text">Building a social media platform where users can post updates, follow others, and
+                engage with content inspired by Twitter</p>
+              <a href="#" class="btn ">Live Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </div>
+
+
+  <!-- ---Contact--- -->
+
+
+  <div id="contact" class="project container">
+    <div class="h1 text-center mt-5">CONTACT</div>
+    <div class="underline1 mb-5"></div>
+    <div class="conn d-md-flex my-5 gap-5 w-100">
+      <div class="info col-md-5 p-4" data-aos="fade-up">
+        <div class="address">
+          <div class=" d-flex">
+            <div class="adicon rounded-circle align-content-center text-center mt-3 me-3"
+              style="height: 45px; width:45px;">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h3 class="mt-3">Address</h3>
+            </div>
+          </div>
+          <div class="mt-2">
+            <p>Azhagiyamandapam,KanyaKumari Dist,Tamil Nadu.</p>
+          </div>
+        </div>
+        <div class="address">
+          <div class="d-flex">
+            <div class="adicon rounded-circle align-content-center text-center mt-4 me-3"
+              style="height: 45px; width: 45px;">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="mt-2">
+              <h3 class="mt-3">Call Us</h3>
+            </div>
+          </div>
+          <div>
+            <p class="ms-5">+91 9025608262</p>
+          </div>
+        </div>
+        <div class="address">
+          <div class=" d-flex">
+            <div class="adicon rounded-circle align-content-center text-center mt-3 me-3"
+              style="height: 45px; width: 45px;">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="mt-2">
+              <h3 class="mt-2">Email</h3>
+            </div>
+          </div>
+          <div>
+            <p class="ms-5">sanjithsanjai2@gmail.com</p>
+          </div>
+        </div>
+        <div class="loc">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1974.2023542444947!2d77.2957339252271!3d8.262452957251602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1723391052870!5m2!1sen!2sin"
+            height="300" style="border:0;" allowfullscreen="" class="w-100" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="contact p-4 w-100" data-aos="fade-up">
+        <div class=" d-flex gap-4">
+          <div class="namemail w-100">
+            <h4>Your Name</h4>
+            <input type="text" class="w-100" required>
+          </div>
+
+          <div class="namemail w-100">
+            <h4>Your Emial</h4>
+            <input type="email" class="col-12" required>
+          </div>
+        </div>
+        <div class="namemail mt-3">
+          <h4>Subject</h4>
+          <input type="text" class="w-100" required>
+        </div>
+        <div class="namemail mt-3">
+          <h4>Message</h4>
+          <textarea name="" id="" cols="30" rows="10" class="w-100 mb-3" required></textarea>
+        </div>
+        <div class="text-center mt-4">
+          <a href="" class="px-5 py-2 fw-bold">Send</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ---footer--- -->
+
+  <div class="footer mt-5 align-content-center">
+    <div class="container my-4 align-content-center d-md-flex justify-content-between">
+      <div class="col-md-4">
+        <h4 class=" fw-bold text-white">Contact</h4>
+        <div class="underlinef1 mt-3 mb-2"></div>
+        <p class="text-white ">Azhagiyamandapam,KanyaKumari Dist,Tamil Nadu.</p>
+        <p class="text-white ">Ph : 9025608262</p>
+        <p class="text-white ">Email Id: sanjithsanjai2@gmail.com</p>
+      </div>
+
+      <div class="col-md-4">
+        <div class="main">
+          <h4 class="text-center fw-bold text-white">Follow</h4>
+          <div class="underlinef mb-2"></div>
+          <div class="up mx-auto">
+            <a href="https://www.instagram.com/sanjai_shizu_7/profilecard/?igsh=MWYxcGZnNmJ0NHlqeA==" target="_blank" class="card1">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256"
+                width="30px" height="30px" fill-rule="nonzero" class="instagram">
+                <g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                  stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                  font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                  <g transform="scale(8,8)">
+                    <path
+                      d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100011764713600" target="_blank" class="card2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="30px" height="25px" class="discord">
+                <path
+                  d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+              </svg>
+            </a>
+          </div>
+          <div class="down mx-auto">
+            <a href="https://github.com/Sanjai-Don" target="_blank" class="card3">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px" class="github">
+                <path
+                  d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                </path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sanjai-s-50a605313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="card4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" class="linkedin" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-2  ">
+        <h4 class=" fw-bold text-white">Links</h4>
+        <div class="underlinef2 mt-3 mb-2"></div>
+        <ol class="likk " type="i">
+          <li><a class="" href="#home">Home</a></li>
+          <li><a class="" href="#about">About</a></li>
+          <li><a class="" href="#skill">Skills</a></li>
+          <li><a class="" href="#project">Projects</a></li>
+          <li><a class="" href="#contact">Contact</a></li>
+        </ol>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center">
+      <p class="text-white">© Copyright Portfolio. All Rights Reserved.</p>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
