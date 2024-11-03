@@ -494,28 +494,30 @@ port.addEventListener("click",function(){
       </div>
 
       <div class="contact p-4 w-100" data-aos="fade-up">
-        <div class=" d-flex gap-4">
-          <div class="namemail w-100">
-            <h4>Your Name</h4>
+        <form action="">
+          <div class=" d-flex gap-4">
+            <div class="namemail w-100">
+              <h4>Your Name</h4>
+              <input type="text" class="w-100" required>
+            </div>
+
+            <div class="namemail w-100">
+              <h4>Your Emial</h4>
+              <input type="email" class="col-12" required>
+            </div>
+          </div>
+          <div class="namemail mt-3">
+            <h4>Subject</h4>
             <input type="text" class="w-100" required>
           </div>
-
-          <div class="namemail w-100">
-            <h4>Your Email</h4>
-            <input type="email" class="col-12" required>
+          <div class="namemail mt-3">
+            <h4>Message</h4>
+            <textarea name="" id="" cols="30" rows="10" class="w-100 mb-3" required></textarea>
           </div>
-        </div>
-        <div class="namemail mt-3">
-          <h4>Subject</h4>
-          <input type="text" class="w-100" required>
-        </div>
-        <div class="namemail mt-3">
-          <h4>Message</h4>
-          <textarea name="" id="" cols="30" rows="10" class="w-100 mb-3" required></textarea>
-        </div>
-        <div class="text-center mt-4">
-          <a href="" class="px-5 py-2 fw-bold">Send</a>
-        </div>
+          <div class="text-center mt-4">
+            <button type="submit" class="px-5 py-2 fw-bold">Send</a>
+          </div>
+        </form>
       </div>
 
     </div>
