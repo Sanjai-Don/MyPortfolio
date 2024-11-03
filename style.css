@@ -461,13 +461,14 @@ ul a:hover {
     border: 1px solid #fb8122;  
     transition: .3s;
 }
-.contact a{
+.contact button{
     background-color:#fb8122;
     color: white;
     text-decoration: none;
     border-radius: 20px;
+    border: none;
 }
-.contact a:hover{
+.contact button:hover{
     background-color: white;
     border: 1px solid #fb8122;
     color: #fb8122;
